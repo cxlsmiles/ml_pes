@@ -1,4 +1,5 @@
 import h5py
+import numpy as np
 
 def load_dataset():
     dataset = h5py.File('train_examples.h5', "r")
